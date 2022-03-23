@@ -1,0 +1,14 @@
+version: 2
+updates:
+    - package-ecosystem: "npm"
+      directory: "/"
+      schedule:
+          interval: "daily"
+          timezone: "Asia/Jakarta"
+      target-branch: "master"
+      commit-message:
+          # Prefix all commit messages with "npm"
+          prefix: "npm"
+      labels:
+          - "npm"
+          - "dependencies"
