@@ -1,0 +1,29 @@
+{
+    "name": "@violetics/news",
+    "version": "0.1.0",
+    "description": "News API Wrapper for https://violetics.pw/api/news",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "test": "node test/index.test",
+        "prettier": "npx prettier -w ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/violetics/news.git"
+    },
+    "keywords": [
+        "violetics",
+        "news",
+        "wrapper",
+        "api",
+        "image",
+        "manipulation"
+    ],
+    "author": "Violetics",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/violetics/news/issues"
+    },
+    "homepage": "https://github.com/violetics/news#readme"
+}
