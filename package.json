@@ -16,9 +16,7 @@
         "violetics",
         "news",
         "wrapper",
-        "api",
-        "image",
-        "manipulation"
+        "api"
     ],
     "author": "Violetics",
     "license": "MIT",
