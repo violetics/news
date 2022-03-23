@@ -1,4 +1,4 @@
-## Violetics API news
+## Violetics API News
 
 > **_News API Wrapper for https://violetics.pw/api/news_**
 
@@ -30,14 +30,14 @@ const v = new Violetics("API_KEY"); // register on https://violetics.pw/ to get 
 /* then, catch */
 v.antara()
 	.then((data) => {
-		console.log("data", data)
+		console.log("data", data);
 	})
 	.catch(console.error);
 
 /* callback */
 v.antara((error, data) => {
 	if (error) return console.error(error);
-	console.log("data", data)
+	console.log("data", data);
 });
 ```
 
