@@ -1,6 +1,6 @@
 {
     "name": "@violetics/news",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "News API Wrapper for https://violetics.pw/api/news",
     "main": "src/index.js",
     "scripts": {
